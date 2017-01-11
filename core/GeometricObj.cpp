@@ -8,7 +8,7 @@
 #include "GeometricObj.h"
 
 #define STB_IMAGE_IMPLEMENTATION
-#include "stb/stb_image.h"
+#include "../stb/stb_image.h"
 
 void GeometricObj::loadTexture(const char* textureFile) {
 	int w, h, dim;

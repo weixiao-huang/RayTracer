@@ -6,8 +6,8 @@
 #define SMALLPPM_MESHOBJ_H
 
 
-#include "GeometricObj.h"
-#include "SimpleObject.h"
+#include "core/GeometricObj.h"
+#include "core/SimpleObject.h"
 
 class KdTreeNode : public Box {
     void createNode(Vec3 min, Vec3 max, vector<Triangle> triangles, int depth);

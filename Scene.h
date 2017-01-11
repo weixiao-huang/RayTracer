@@ -6,7 +6,7 @@
 #define SMALLPPM_SCENE_H
 
 #include <vector>
-#include "GeometricObj.h"
+#include "core/GeometricObj.h"
 #include "MeshObj.h"
 
 using std::vector;

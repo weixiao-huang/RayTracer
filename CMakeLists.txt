@@ -8,13 +8,13 @@ set(LIB_FILES
         stb/stb_image_write.h)
 
 set(CORE_FILES
-        Color.cpp Color.h
-        Vec3.h Vec3.cpp
-        GeometricObj.h GeometricObj.cpp
+        core/Color.cpp core/Color.h
+        core/Vec3.h core/Vec3.cpp
+        core/GeometricObj.h core/GeometricObj.cpp
         MeshObj.h MeshObj.cpp
         PhotonUtil.h PhotonUtil.cpp
         Scene.h Scene.cpp
-        SimpleObject.h SimpleObject.cpp
+        core/SimpleObject.h core/SimpleObject.cpp
         Tracer.h Tracer.cpp)
 
 # Copy Resources to Build Dir

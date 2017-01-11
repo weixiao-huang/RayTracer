@@ -5,8 +5,8 @@
 #ifndef SMALLPPM_PHOTONUTIL_H
 #define SMALLPPM_PHOTONUTIL_H
 
-#include "Vec3.h"
-#include "Color.h"
+#include "core/Vec3.h"
+#include "core/Color.h"
 
 #define MAX(x, y) ((x > y) ? x : y)
 
